@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine">
+      <UniqueIdentifier>{1f3a1f14-a42f-427e-91f4-979f5e815d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine">
+      <UniqueIdentifier>{9ae5e1a9-cbce-4ebd-aef5-471d21378596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Player">
+      <UniqueIdentifier>{6a034306-39d4-4708-865a-17eb95ad8c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Player">
+      <UniqueIdentifier>{ebea46a3-5c09-45ce-bff3-0eba6e9d8ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Play">
+      <UniqueIdentifier>{130e3b36-1ec2-4b5f-bad7-22cdcc9a0dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Play">
+      <UniqueIdentifier>{7999eb5f-5953-46b7-a73d-f4ed254ef900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engin">
+      <UniqueIdentifier>{6d153e75-2b10-4a58-a4f1-cff6920fe8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engin\Vaisseau">
+      <UniqueIdentifier>{c1556b30-209b-4db8-b7f0-35d93c91aa67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engin\Asteroide">
+      <UniqueIdentifier>{b82791b8-2ff5-4e90-a300-43225b8c984d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engin">
+      <UniqueIdentifier>{a5f004ef-733d-4505-8e69-4ecce941328f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engin\Vaisseau">
+      <UniqueIdentifier>{a4ccb345-f17f-4ce6-b425-af480954e16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engin\Asteroide">
+      <UniqueIdentifier>{289df75a-3e22-4941-9405-660989dbeb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Grille&amp;Case">
+      <UniqueIdentifier>{c66dfa5e-b693-4ed1-81cd-b7ad8fcdcbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Grille&amp;Case">
+      <UniqueIdentifier>{5125d75b-f669-4eeb-bbc0-9c981a1007e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MyControlEngine.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGameEngine.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGraphicEngine.cpp">
+      <Filter>Fichiers sources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroide.cpp">
+      <Filter>Fichiers sources\Engin\Asteroide</Filter>
+    </ClCompile>
+    <ClCompile Include="Vaisseau.cpp">
+      <Filter>Fichiers sources\Engin\Vaisseau</Filter>
+    </ClCompile>
+    <ClCompile Include="ListVaisseau.cpp">
+      <Filter>Fichiers sources\Engin\Vaisseau</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Fichiers sources\Engin</Filter>
+    </ClCompile>
+    <ClCompile Include="Case.cpp">
+      <Filter>Fichiers sources\Grille&amp;Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Fichiers sources\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Part.cpp">
+      <Filter>Fichiers sources\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="DimensionWindow.cpp">
+      <Filter>Fichiers sources\Grille&amp;Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Grille.cpp">
+      <Filter>Fichiers sources\Grille&amp;Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.cpp">
+      <Filter>Fichiers sources\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="SlowAsteroide.cpp">
+      <Filter>Fichiers sources\Engin\Asteroide</Filter>
+    </ClCompile>
+    <ClCompile Include="AverageAsteroide.cpp">
+      <Filter>Fichiers sources\Engin\Asteroide</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickAsteroide.cpp">
+      <Filter>Fichiers sources\Engin\Asteroide</Filter>
+    </ClCompile>
+    <ClCompile Include="VeryQuickAsteroide.cpp">
+      <Filter>Fichiers sources\Engin\Asteroide</Filter>
+    </ClCompile>
+    <ClCompile Include="AsteroideForme.cpp">
+      <Filter>Fichiers sources\Engin\Asteroide</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongVaisseau.cpp">
+      <Filter>Fichiers sources\Engin\Vaisseau</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Fichiers sources\Engin</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyVaisseau.cpp">
+      <Filter>Fichiers sources\Engin\Vaisseau</Filter>
+    </ClCompile>
+    <ClCompile Include="LightVaisseau.cpp">
+      <Filter>Fichiers sources\Engin\Vaisseau</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyControlEngine.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameEngine.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGraphicEngine.h">
+      <Filter>Fichiers d%27en-tête\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroide.h">
+      <Filter>Fichiers d%27en-tête\Engin\Asteroide</Filter>
+    </ClInclude>
+    <ClInclude Include="Vaisseau.h">
+      <Filter>Fichiers d%27en-tête\Engin\Vaisseau</Filter>
+    </ClInclude>
+    <ClInclude Include="ListVaisseau.h">
+      <Filter>Fichiers d%27en-tête\Engin\Vaisseau</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Fichiers d%27en-tête\Engin</Filter>
+    </ClInclude>
+    <ClInclude Include="Case.h">
+      <Filter>Fichiers d%27en-tête\Grille&amp;Case</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Fichiers d%27en-tête\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Part.h">
+      <Filter>Fichiers d%27en-tête\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="DimensionWindow.h">
+      <Filter>Fichiers d%27en-tête\Grille&amp;Case</Filter>
+    </ClInclude>
+    <ClInclude Include="Engin.h">
+      <Filter>Fichiers d%27en-tête\Engin</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Grille.h">
+      <Filter>Fichiers d%27en-tête\Grille&amp;Case</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h">
+      <Filter>Fichiers d%27en-tête\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowAsteroide.h">
+      <Filter>Fichiers d%27en-tête\Engin\Asteroide</Filter>
+    </ClInclude>
+    <ClInclude Include="AverageAsteroide.h">
+      <Filter>Fichiers d%27en-tête\Engin\Asteroide</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickAsteroide.h">
+      <Filter>Fichiers d%27en-tête\Engin\Asteroide</Filter>
+    </ClInclude>
+    <ClInclude Include="veryQuickAsteroide.h">
+      <Filter>Fichiers d%27en-tête\Engin\Asteroide</Filter>
+    </ClInclude>
+    <ClInclude Include="AsteroideForme.h">
+      <Filter>Fichiers d%27en-tête\Engin\Asteroide</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongVaisseau.h">
+      <Filter>Fichiers d%27en-tête\Engin\Vaisseau</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Fichiers d%27en-tête\Engin</Filter>
+    </ClInclude>
+    <ClInclude Include="LightVaisseau.h">
+      <Filter>Fichiers d%27en-tête\Engin\Vaisseau</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyVaisseau.h">
+      <Filter>Fichiers d%27en-tête\Engin\Vaisseau</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VaisseauAsteroide.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

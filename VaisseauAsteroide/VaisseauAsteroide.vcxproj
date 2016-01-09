@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{24BAAD22-0133-4583-AD00-5BBB1E2D9895}</ProjectGuid>
+    <RootNamespace>VaisseauAsteroide</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\yezide\Desktop\VaisseauAsteroide\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libWin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>engine.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\libWin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>engine.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Asteroide.cpp" />
+    <ClCompile Include="AverageAsteroide.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Case.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Grille.cpp" />
+    <ClCompile Include="DimensionWindow.cpp" />
+    <ClCompile Include="AsteroideForme.cpp" />
+    <ClCompile Include="HeavyVaisseau.cpp" />
+    <ClCompile Include="LightVaisseau.cpp" />
+    <ClCompile Include="ListVaisseau.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="MyControlEngine.cpp" />
+    <ClCompile Include="MyGameEngine.cpp" />
+    <ClCompile Include="MyGraphicEngine.cpp" />
+    <ClCompile Include="Part.cpp" />
+    <ClCompile Include="Play.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="QuickAsteroide.cpp" />
+    <ClCompile Include="SlowAsteroide.cpp" />
+    <ClCompile Include="StrongVaisseau.cpp" />
+    <ClCompile Include="Vaisseau.cpp" />
+    <ClCompile Include="VeryQuickAsteroide.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asteroide.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Case.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Grille.h" />
+    <ClInclude Include="DimensionWindow.h" />
+    <ClInclude Include="Engin.h" />
+    <ClInclude Include="AsteroideForme.h" />
+    <ClInclude Include="HeavyVaisseau.h" />
+    <ClInclude Include="LightVaisseau.h" />
+    <ClInclude Include="ListVaisseau.h" />
+    <ClInclude Include="AverageAsteroide.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="MyControlEngine.h" />
+    <ClInclude Include="MyGameEngine.h" />
+    <ClInclude Include="MyGraphicEngine.h" />
+    <ClInclude Include="Part.h" />
+    <ClInclude Include="Play.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="QuickAsteroide.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SlowAsteroide.h" />
+    <ClInclude Include="StrongVaisseau.h" />
+    <ClInclude Include="Vaisseau.h" />
+    <ClInclude Include="veryQuickAsteroide.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VaisseauAsteroide.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
